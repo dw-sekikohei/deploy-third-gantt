@@ -1,0 +1,9 @@
+/*!
+ *
+ * Bryntum Gantt 2.1.7 (TRIAL VERSION)
+ *
+ * Copyright(c) 2020 Bryntum AB
+ * https://bryntum.com/contact
+ * https://bryntum.com/license
+ *
+ */

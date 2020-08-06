@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/deploy-third-gantt/static/css/main.5fcd3a3f.chunk.css",
+    "main.js": "/deploy-third-gantt/static/js/main.2e1ec4f8.chunk.js",
+    "main.js.map": "/deploy-third-gantt/static/js/main.2e1ec4f8.chunk.js.map",
+    "runtime-main.js": "/deploy-third-gantt/static/js/runtime-main.3975251b.js",
+    "runtime-main.js.map": "/deploy-third-gantt/static/js/runtime-main.3975251b.js.map",
+    "static/js/2.0d3aeb1f.chunk.js": "/deploy-third-gantt/static/js/2.0d3aeb1f.chunk.js",
+    "static/js/2.0d3aeb1f.chunk.js.map": "/deploy-third-gantt/static/js/2.0d3aeb1f.chunk.js.map",
+    "index.html": "/deploy-third-gantt/index.html",
+    "precache-manifest.04031675dbefd26b87eda1da5e0e4019.js": "/deploy-third-gantt/precache-manifest.04031675dbefd26b87eda1da5e0e4019.js",
+    "service-worker.js": "/deploy-third-gantt/service-worker.js",
+    "static/css/main.5fcd3a3f.chunk.css.map": "/deploy-third-gantt/static/css/main.5fcd3a3f.chunk.css.map",
+    "static/js/2.0d3aeb1f.chunk.js.LICENSE.txt": "/deploy-third-gantt/static/js/2.0d3aeb1f.chunk.js.LICENSE.txt",
+    "static/js/main.2e1ec4f8.chunk.js.LICENSE.txt": "/deploy-third-gantt/static/js/main.2e1ec4f8.chunk.js.LICENSE.txt",
+    "static/media/shared.scss": "/deploy-third-gantt/static/media/logo_bryntum_bw.3784cc4c.png",
+    "static/media/gantt.stockholm.css": "/deploy-third-gantt/static/media/fa-solid-900.ec763292.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3975251b.js",
+    "static/js/2.0d3aeb1f.chunk.js",
+    "static/css/main.5fcd3a3f.chunk.css",
+    "static/js/main.2e1ec4f8.chunk.js"
+  ]
+}

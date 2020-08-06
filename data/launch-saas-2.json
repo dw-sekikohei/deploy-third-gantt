@@ -1,0 +1,155 @@
+{
+  "success": true,
+
+  "project": {
+    "calendar": "general",
+    "startDate": "2019-01-14"
+  },
+
+  "calendars": {
+    "rows": [
+      {
+        "id": "general",
+        "name": "General",
+        "intervals": [
+          {
+            "recurrentStartDate": "on Sat at 0:00",
+            "recurrentEndDate": "on Mon at 0:00",
+            "isWorking": false
+          }
+        ],
+        "expanded": true,
+        "children": [
+          {
+            "id": "business",
+            "name": "Business",
+            "hoursPerDay": 8,
+            "daysPerWeek": 5,
+            "daysPerMonth": 20,
+            "intervals": [
+              {
+                "recurrentStartDate": "every weekday at 12:00",
+                "recurrentEndDate": "every weekday at 13:00",
+                "isWorking": false
+              },
+              {
+                "recurrentStartDate": "every weekday at 17:00",
+                "recurrentEndDate": "every weekday at 08:00",
+                "isWorking": false
+              }
+            ]
+          },
+          {
+            "id": "night",
+            "name": "Night shift",
+            "hoursPerDay": 8,
+            "daysPerWeek": 5,
+            "daysPerMonth": 20,
+            "intervals": [
+              {
+                "recurrentStartDate": "every weekday at 6:00",
+                "recurrentEndDate": "every weekday at 22:00",
+                "isWorking": false
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "tasks": {
+    "rows": [
+      {
+        "id": 1000,
+        "name": "工事工程①（遣り方）",
+        "user": "担当者１",
+        "percentDone": 50,
+        "startDate": "2019-01-14",
+        "expanded": true,
+        "children": [],
+        "endDate": "2019-01-20"
+      },
+      {
+        "id": 1100,
+        "name": "工事工程②",
+        "user": "担当者　次郎",
+        "percentDone": 50,
+        "startDate": "2019-01-21",
+        "expanded": true,
+        "children": [
+          {
+            "id": 1110,
+            "name": "地盤調査/改良工事",
+            "user": "担当者２",
+            "percentDone": 50,
+            "startDate": "2019-01-21",
+            "expanded": true,
+            "children": [],
+            "endDate": "2019-02-10"
+          },
+          {
+            "id": 1120,
+            "name": "杭工事",
+            "user": "担当者２",
+            "percentDone": 50,
+            "startDate": "2019-02-20",
+            "expanded": true,
+            "children": [],
+            "endDate": "2019-02-25"
+          }
+        ],
+        "endDate": "2019-02-25"
+      },
+      {
+        "id": 1200,
+        "name": "工事工程③ （根掘り）",
+        "user": "担当者３",
+        "percentDone": 50,
+        "startDate": "2019-01-14",
+        "expanded": true,
+        "children": [],
+        "endDate": "2019-01-20"
+      },
+      {
+        "id": 1300,
+        "name": "工事工程④（鉄筋加工工事）",
+        "user": "担当者４",
+        "percentDone": 50,
+        "startDate": "2019-01-14",
+        "expanded": true,
+        "children": [],
+        "endDate": "2019-01-20"
+      }
+    ]
+  },
+
+  "dependencies": {
+    "rows": [
+      {
+        "id": 1,
+        "fromTask": 1000,
+        "toTask": 1100,
+        "lag": 0
+      },
+      {
+        "id": 2,
+        "fromTask": 1110,
+        "toTask": 1120,
+        "lag": 0
+      },
+      {
+        "id": 3,
+        "fromTask": 1100,
+        "toTask": 1200,
+        "lag": 0
+      },
+      {
+        "id": 4,
+        "fromTask": 1200,
+        "toTask": 1300,
+        "lag": 0
+      }
+    ]
+  }
+}
